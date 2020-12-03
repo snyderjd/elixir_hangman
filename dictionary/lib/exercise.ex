@@ -1,7 +1,7 @@
 defmodule Exercise do
 
   # Write a function that takes a two-element tuple as a parameter, and uses pattern
-  # matching to return a two-element tuple with the values swapped (so pass it {2, 5} 
+  # matching to return a two-element tuple with the values swapped (so pass it {2, 5}
   # and you'll get {5, 2} back)
   # def swap_tuple({a, b}), do: {b, a}
 
