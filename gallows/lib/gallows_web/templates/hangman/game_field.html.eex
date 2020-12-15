@@ -1,0 +1,9 @@
+<%= inspect @tally %>
+
+<p>Turns left: <%= @tally.turns_left %></p>
+
+<p>Word so far: <%= display_word(@tally) %></p>
+
+<form>
+
+</form>
