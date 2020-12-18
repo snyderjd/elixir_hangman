@@ -9,6 +9,10 @@ defmodule Gallows.Views.Helpers.GameStateHelper do
     :already_used => { :info, "You already guessed that" }
   }
 
+  def display_used(used_letters) do
+    used_letters |> Enum.join(" ")
+  end
+
   def display_word(tally) do
     tally.letters |> Enum.join(" ")
   end
